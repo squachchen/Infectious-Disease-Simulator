@@ -4,7 +4,7 @@ When I did the update to 1.0 model, I simplified every encounter to an Infection
 
 This Infectious Disease Simulator is based on the Wells-Riley formula for airborne disease.  See [article:](https://publichealth.jhu.edu/2020/the-experiment-that-proved-airborne-disease-transmission)
 The probability (P) of an individual becoming infected is expressed as
-
+<img width="188" height="65" alt="wells_riley" src="https://github.com/user-attachments/assets/ff64b73d-7193-4a50-8206-13eb705f2442" />
 Where:
 
 P : Probability of infection.
