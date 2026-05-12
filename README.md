@@ -22,3 +22,24 @@ Q: Room ventilation rate with clean air
 We end up fixing all the parameters so only the q -- emission rate and Q -- the ventilation are adjustible. 
 As t (time) progresses, the probability will increase. 
 As more individuas get infected, the probability increases. 
+
+# Running Infection_Lab_Wells_Riley.py
+I suggest running Infection_Lab_Wells_Riley.py on Python 3.11 or later. You only need to install two external libraries:
+
+* numpy
+* matplotlib
+
+Using pip:
+pip install numpy matplotlib
+
+Using conda (recommended if you use Spyder/Anaconda):
+conda install numpy matplotlib
+
+Tips:
+1. Adjust quantum emission rate up to see how much that changes the P upwards.
+2. Adjust the Q room ventilation down to see how much that changes the P upwards.
+
+As soon as the P gets to about 0.10; the effects of time (t) and number of individuals (I) drive P upwards very quickly. A well ventilated area actually keeps the infection from spreading. 
+
+Read this blog if you want to learn more:  
+[https://pchenlab.wordpress.com/2026/05/11/updated-infectious-disease-simulator/](https://pchenlab.wordpress.com/2026/05/11/updated-infectious-disease-simulator/)
