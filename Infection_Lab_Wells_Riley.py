@@ -7,7 +7,7 @@ Created on Sun May 10 17:07:26 2026
 
 # -*- coding: utf-8 -*-
 """
-Infection Lab — Wesley-Niles airborne transmission model
+Infection Lab — Wells-Riley airborne transmission model
 P = 1 - exp(-I * q * p * t / Q)
 
 Parameters
